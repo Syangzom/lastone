@@ -1,0 +1,149 @@
+body{
+    margin:0px;
+    padding:5px;
+    box-sizing: border-box;
+
+
+}
+.container{
+    position: relative;
+    width:100%;
+    min-height: 88vh;
+    padding:1.5rem;
+    background-image: url(b7.jpg);
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+}
+
+.form{
+   width:60%;
+   height: 500px;
+   background:rgba(0,0,0,0.5);
+   border-radius: 20px;
+   overflow:hidden;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+
+}
+.icon{
+    width:35px;
+    color:white;
+}
+
+.contact-info{
+    padding:2.3rem 2.2rem;
+    position: relative;
+}
+
+.title{
+    color:cadetblue;
+    padding-left: 4rem;
+    font-size: 25px;
+}
+
+.title1{
+    padding-left: 4.3;
+    color:chocolate;
+}
+
+.information{
+    display:flex;
+    align-items: center;
+    margin:0.7rem;
+}
+
+.contact-form p{
+    color: aliceblue;
+    
+}
+
+.social-media{
+    padding-left:1.3rem;
+    color:chartreuse;
+
+
+}
+
+.social-icons{
+    display:flex;
+    width:28px;
+    height:30px;
+}
+
+.social-icon a:hover{
+    color:gray;
+    transform: scale(2);
+}
+
+
+
+.contact-info{
+    background-color:slategrey(2,2,2,3);
+}
+ 
+.contact-form{
+    padding:25px;
+    position: relative;
+} 
+
+form{
+   position: relative;
+   overflow: hidden;
+   padding:2.3 rem 2.2 rem; 
+  
+}
+
+.webtitle{
+    color:antiquewhite;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    padding-left:80px;
+    color:brown;
+    padding-top:0.2rem;
+}
+
+.input-container{
+    position: relative;
+    margin:0.75rem;
+}
+
+.label{
+    display:none;
+} 
+
+.input{
+    width:80%;
+    height:4vh;
+    border:2px solid black;
+    color:blanchedalmond;
+    border-radius: 13px;
+    transition:0.3s;
+  
+
+}
+
+textarea.input{
+    min-height: 150px;
+    border-radius: 13px;
+    overflow-y: auto;
+}
+
+.btn{
+  border:2px solid black;
+  background-color:blanchedalmond;
+  padding:0.6rem 1.3rem;
+  border-radius: 13px;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
